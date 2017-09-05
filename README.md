@@ -31,4 +31,4 @@ Within the "DSX Local Lab - Telco Churn" project, add a Notebook and choose to i
 - Edit the "*PredictChurn-Build and Deploy to WML*" notebook to read the data from the flat files
 - **Tip**: make sure *inferSchema* is set to 'true' when reading in the csv files, otherwise, all columns will be treated as String values.
 
-![infer schema](images/infer_schema.png?raw=true)
+![infer schema](static/imag/infer_schema.png?raw=true)
