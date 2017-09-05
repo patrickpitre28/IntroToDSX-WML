@@ -12,7 +12,7 @@ The objective of this lab is to introduce you to working with Jupyter Notebooks 
 **Demo setup**
 1. Create a DSX project and name it "*DSX Lab - Telco Churn*"
 2. Import ![Data](data) <br/>
-Tip: First download the csv files before importing them into your project.  When downloading the csv files, make sure to click the **Raw** button to display the data in its raw format, right-click and select "Save Page As".
+**Tip**: First download the csv files before importing them into your project.  When downloading the csv files, make sure to click the **Raw** button to display the data in its raw format, right-click and select "Save Page As".
 ![Download CSV files](static/img/download_file.png?raw=true)
 
 3. Import notebook <br/>
