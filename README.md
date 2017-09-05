@@ -18,5 +18,17 @@ Tip: First download the csv files before importing them into your project.  When
 3. Import notebook <br/>
 Within the "DSX Local Lab - Telco Churn" project, add a Notebook and choose to import it from this URL: https://github.com/SidneyPhoon/IntroToDSX-WML/blob/master/notebooks/PredictChurn-Build%20and%20Deploy%20to%20WML.ipynb
 
-4. Follow instructions in the notebook and work through the notebook
+4. Follow instructions in the notebook and work through the "*PredictChurn-Build and Deploy to WML*" notebook
 
+### Optional Lab Exercises
+
+#### 1. Access data in flat files
+- Download ![churn.csv](data/churn.csv?raw=true) and ![customer.csv](data/customer.csv?raw=true), and add them into the *DSX Lab - Telco Churn* project
+- Create a duplicate of the "*PredictChurn-Build and Deploy to WML*" notebook
+
+![Duplicate a notebook](images/duplicate_notebook.png?raw=true)
+
+- Edit the "*Predict Customer Churn - Build Model copy 1*" notebook to read the data from the flat files
+- **Tip**: make sure *inferSchema* is set to 'true' when reading in the csv files, otherwise, all columns will be treated as String values.
+
+![infer schema](images/infer_schema.png?raw=true)
