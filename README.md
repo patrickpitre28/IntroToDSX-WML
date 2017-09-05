@@ -39,5 +39,6 @@ Within the "DSX Local Lab - Telco Churn" project, add a Notebook and choose to i
 - Scroll-down to **Associated Services**, select an instance of Machine Learning.  Associating an instance of ML service with the project allows you to deploy models built with visual tools, such as the ML Model Builder or Flows
 - Go to **Analytics Assets** in the project
 - In the **Models** section click *Add Model*
-- Follow the visual guide to build an *Automatic* or *Manual* model with the **customer_churn.csv** file.  This file contains the merged data from the customer.csv and churn.csv.
+- Follow the visual guide to build a Spark ML model to preduct churn.  The input file is **customer_churn.csv** file.  This file contains the merged data from the customer.csv and churn.csv.  Choose *Automatic* if you want ML to build and pick the best performing model for you, choose *Manual* if you want to choose the your own models
+
 
