@@ -43,6 +43,9 @@ Within the "DSX Local Lab - Telco Churn" project, add a Notebook and choose to i
 - When the model is built, click *Save* to save the model into the WML repository
 ![infer schema](static/img/model_builder_save_model.png?raw=true)
 - Click **Add Deployment** to create and Online deployment
+- Click the **Predictions** tab to the the visual interface for testing your deployed model
+-  The values for testing are, ID=999,Gender=F,Status=M,Children=2,EstIncome=80000,CarOwner=Y,Age=33,LongDistance=40,International=0,Local=50,Dropped=1,Paymethod=CC,LocalBilltype=Budget,LongDistanceBilltype=Standard,Usage=65,RatePlan=2
+
 
 
 
