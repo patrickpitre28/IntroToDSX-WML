@@ -16,9 +16,11 @@ The objective of this lab is to introduce you to working with Jupyter Notebooks 
 ![Download CSV files](static/img/download_file.png?raw=true)
 
 3. Import notebook <br/>
-Within the "DSX Local Lab - Telco Churn" project, add a Notebook and choose to import it from this URL: https://github.com/SidneyPhoon/IntroToDSX-WML/blob/master/notebooks/PredictChurn-Build%20and%20Deploy%20to%20WML.ipynb
+Within the "DSX Lab - Telco Churn" project, add a Notebook and choose to import it from this URL: https://github.com/SidneyPhoon/IntroToDSX-WML/blob/master/notebooks/PredictChurn-Build%20and%20Deploy%20to%20WML.ipynb
 
 4. Follow instructions in the notebook and work through the "*PredictChurn-Build and Deploy to WML*" notebook
+
+5. This is an example of a web application that makes REST API calls to a deployed model to predict customer churn in real-time, https://predictcustomerchurn.mybluemix.net/
 
 ### Optional Lab Exercises
 
