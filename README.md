@@ -1,4 +1,4 @@
-# DSX Cloud Introduction To DSX and WML
+# Itroduction To DSX Cloud and WML
 
 **Objective**
 
