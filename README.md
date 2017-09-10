@@ -50,6 +50,9 @@ Within the "DSX Lab - Telco Churn" project, add a Notebook and choose to import 
 ![infer schema](static/img/infer_schema.png?raw=true)
 <br/>
 
+#### 2. Import SPSS Modeler Stream into Flow
+- Download ![predict_churn_SPSS.str](SPSS/predict_churn_SPSS.str?raw=true) into your local file system
+- 
 
 
 
