@@ -8,7 +8,7 @@ The objective of this lab is to introduce you to working with Jupyter Notebooks 
 1. ![Notebooks](notebooks)
 2. ![Data](data)
 
-
+## Lab 1: Build and Deploy predictive model programmatically with Jupyter Notebook
 **Lab setup**
 1. Create a DSX project and name it "*DSX Lab - Telco Churn*"
 2. Import ![Data](data) <br/>
@@ -21,6 +21,19 @@ Within the "DSX Lab - Telco Churn" project, add a Notebook and choose to import 
 4. Follow instructions in the notebook and work through the "*PredictChurn-Build and Deploy to WML*" notebook
 
 5. This is an example of a web application that makes REST API calls to a deployed model to predict customer churn in real-time, https://predictcustomerchurn.mybluemix.net/
+
+## Lab 2: Build and Deploy predictive model with the IBM ML visual interface
+- In the *DSX Lab - Telco Churn* project, click **Settings**
+- Scroll-down to **Associated Services**, select an instance of Machine Learning.  Associating an instance of ML service with the project allows you to deploy models built with visual tools, such as the ML Model Builder or Flows
+- Go to **Analytics Assets** in the project
+- In the **Models** section click *Add Model*
+- Follow the visual guide to build a Spark ML model to preduct churn.  The input file is **customer_churn.csv** file.  This file contains the merged data from the customer.csv and churn.csv.  Choose *Automatic* if you want ML to build and pick the best performing model for you, choose *Manual* if you want to choose the your own models
+- When the model is built, click *Save* to save the model into the WML repository
+![infer schema](static/img/model_builder_save_model.png?raw=true)
+- Click **Add Deployment** to create and Online deployment
+- Click the **Predictions** tab to the the visual interface for testing your deployed model
+-  The values for testing are,<br/> ID=999, Gender=F, Status=M, Children=2, EstIncome=80000, CarOwner=Y, Age=33, LongDistance=40, International=0, Local=50, Dropped=1, Paymethod=CC, LocalBilltype=Budget, LongDistanceBilltype=Standard, Usage=65, RatePlan=2
+
 
 ### Optional Lab Exercises
 
@@ -35,18 +48,6 @@ Within the "DSX Lab - Telco Churn" project, add a Notebook and choose to import 
 
 ![infer schema](static/img/infer_schema.png?raw=true)
 <br/>
-
-#### 2. Build a Spark ML model with the IBM ML visual Model Builder
-- In the *DSX Lab - Telco Churn* project, click **Settings**
-- Scroll-down to **Associated Services**, select an instance of Machine Learning.  Associating an instance of ML service with the project allows you to deploy models built with visual tools, such as the ML Model Builder or Flows
-- Go to **Analytics Assets** in the project
-- In the **Models** section click *Add Model*
-- Follow the visual guide to build a Spark ML model to preduct churn.  The input file is **customer_churn.csv** file.  This file contains the merged data from the customer.csv and churn.csv.  Choose *Automatic* if you want ML to build and pick the best performing model for you, choose *Manual* if you want to choose the your own models
-- When the model is built, click *Save* to save the model into the WML repository
-![infer schema](static/img/model_builder_save_model.png?raw=true)
-- Click **Add Deployment** to create and Online deployment
-- Click the **Predictions** tab to the the visual interface for testing your deployed model
--  The values for testing are,<br/> ID=999, Gender=F, Status=M, Children=2, EstIncome=80000, CarOwner=Y, Age=33, LongDistance=40, International=0, Local=50, Dropped=1, Paymethod=CC, LocalBilltype=Budget, LongDistanceBilltype=Standard, Usage=65, RatePlan=2
 
 
 
