@@ -5,7 +5,7 @@
 The objective of this lab is to introduce you to working with Jupyter Notebooks in DSX, to build a predictive model with Spark machine learning API (SparkML) to predict customer churn, and deploy it for scoring in Watson Machine Learning (WML).  You will also build and deploy the same Spark ML model with the visual ML Model Builder interface, so that you can compare the programmatic approach to the visual model builder.
 
 **This repository contains the following assets**
-1. ![Notebook](Notebooks)
+1. ![Notebooks](Notebooks)
 2. ![Data](data)
 
 
