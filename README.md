@@ -22,6 +22,8 @@ Within the "DSX Lab - Telco Churn" project, add a Notebook and choose to import 
 
 5. This is an example of a web application that makes REST API calls to a deployed model to predict customer churn in real-time, https://predictcustomerchurn.mybluemix.net/
 
+<br/>
+
 ## Lab 2: Build and Deploy predictive model with the IBM ML visual interface
 - In the *DSX Lab - Telco Churn* project, click **Settings**
 - Scroll-down to **Associated Services**, select an instance of Machine Learning.  Associating an instance of ML service with the project allows you to deploy models built with visual tools, such as the ML Model Builder or Flows
