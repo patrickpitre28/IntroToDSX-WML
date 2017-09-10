@@ -30,7 +30,7 @@ Within the "DSX Lab - Telco Churn" project, add a Notebook and choose to import 
 - Go to **Analytics Assets** in the project
 - In the **Models** section click *Add Model*
 - Follow the visual guide to build a Spark ML model to preduct churn.  The input file is **customer_churn.csv** file.  This file contains the merged data from the customer.csv and churn.csv.  Choose *Automatic* if you want ML to build and pick the best performing model for you, choose *Manual* if you want to choose your own models.  You may choose to build several types of models.
-- When the models are built, select the best performing model and click *Save* to save the model into the WML repository
+- When the models are built, select the best performing model and click **Save** to save the model into the WML repository
 ![infer schema](static/img/model_builder_save_model.png?raw=true)
 - Click **Add Deployment** to create and Online deployment
 - Click the **Predictions** tab to the the visual interface for testing your deployed model
