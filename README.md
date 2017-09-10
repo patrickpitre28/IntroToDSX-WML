@@ -52,7 +52,12 @@ Within the "DSX Lab - Telco Churn" project, add a Notebook and choose to import 
 
 #### 2. Import SPSS Modeler Stream into Flow
 - Download ![predict_churn_SPSS.str](SPSS/predict_churn_SPSS.str?raw=true) into your local file system
-- 
+- Scroll down to **Flows** and select *add flows*
+- Chose the **FromFile** tab
+- Click **Choose File** and choose *predict_churn_SPSS.str*
+- Specify a name for this Flow and click Create Flow
+- After the Modeler Stream has been loaded, replace the two source nodes with corresponding source files in the DSX Files tab
+- Explore this Flow by running the nodes and viewing the model
 
 
 
